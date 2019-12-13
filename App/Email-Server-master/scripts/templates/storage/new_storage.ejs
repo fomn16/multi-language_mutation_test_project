@@ -1,0 +1,25 @@
+import StorageInterface, { StorageObject, SearchableObject } from "./StorageInterface";
+
+export default class <%= classname %> extends StorageInterface{
+
+  public setup():void{
+    throw "Not yet implmented"
+  }
+
+  public async store(toStore:StorageObject):Promise<number>{
+    throw "Not yet implmented"
+  }
+
+  public async search(toSearch:SearchableObject):Promise<StorageObject[]>{
+    throw "Not yet implmented"
+  }
+
+  public async reset():Promise<boolean>{
+    throw "Not yet implmented"
+  }
+
+  public async all():Promise<StorageObject[]>{
+      throw "Not yet implmented"
+  }
+
+}

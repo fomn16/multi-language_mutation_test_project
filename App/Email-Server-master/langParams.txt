@@ -1,0 +1,25 @@
+conditionalScope ( )
+stringScope " "
+blockScope { }
+conditionalIndicator if
+boolWords true false
+returnIndicator return
+testResultIndicator Tests:
+testCommand npm test
+
+= :1 ?unknown
+== != :01 ?unknown
++= -= :01 ?ints
+|| && :0
++ - * / :0
+
+/** :0
+*/ :0
+import :0
+
+location src/Storage/DictStorage.ts
+location src/Storage/StorageInterface.ts
+location src/Server/EmailServerController.ts
+location src/Server/RestServerController.ts
+
+saveAliveToFile
